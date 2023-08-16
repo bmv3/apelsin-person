@@ -1,0 +1,92 @@
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+// .wp-block-create-block-apelsin-person {
+// 	background-color: #21759b;
+// 	color: #fff;
+// 	padding: 2px;
+// }
+
+.djs {
+    margin-top: 30px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.dj_foto-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin: 0 auto;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    background: #f90;
+    position: relative;
+
+	& img {
+		width: 100px;
+		height: 100px;
+		border-radius: 50%;
+		object-fit: cover;
+	}
+}
+
+.dj_description {
+    font-family: Montserrat-Bold;
+    width: 100%;
+}
+
+.dj_name {
+    color: #000;
+    text-align: center;
+    line-height: 1.2em;
+}
+
+.dj_city {
+    color: #999;
+    text-align: center;
+}
+
+.dj_info {
+    margin-top: 0;
+    padding-top: 0;
+    text-align: center;
+}
+
+.dj_foto-container:before {
+	content: "";
+	background-image: url(//apelsinuraltango.ru/wp-content/themes/apelsinuraltango/img/leaf.webp);
+    width: 80px;
+    height: 40px;
+    position: absolute;
+    top: -20px;
+    left: 50%;
+    background-size: 80px 40px;
+    background-repeat: no-repeat;
+    z-index: 1;
+}
+
+.block-editor-plain-text {
+	background-color: #d3d3d3;
+    outline: 1px solid #f90;
+    padding: 4px;
+    text-align: center;
+	width: fit-content;
+}
